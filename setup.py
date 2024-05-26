@@ -1,7 +1,9 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.0.1'
+VERSION = '0.0.2'
 DESCRIPTION = 'Creating dividers (divs) for CLI or output files'
+with open("README.md", "r") as fh:
+    long_description = fh.read()
 
 # Setting up
 setup(
@@ -11,5 +13,7 @@ setup(
     description=DESCRIPTION,
     packages=find_packages(),
     install_requires=[],
-    keywords=['python', 'dividers', 'cli', 'output']
+    keywords=['python', 'dividers', 'cli', 'output'],
+    long_description=long_description,
+    long_description_content_type="text/markdown",
 )
