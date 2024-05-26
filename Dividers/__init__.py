@@ -1,1 +1,1 @@
-from div import div
+from .div import div
