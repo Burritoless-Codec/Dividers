@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '1'
+VERSION = '0.0.1'
 DESCRIPTION = 'Creating dividers (divs) for CLI or output files'
 
 # Setting up
